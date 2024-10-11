@@ -1,4 +1,4 @@
-# Waydroid image for testing on Apple chips (arm64_only)
+# Waydroid image for Apple Sclicon (arm64_only)
 
 ## Compilation tutorial reference
 
