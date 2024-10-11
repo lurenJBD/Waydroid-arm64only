@@ -44,9 +44,5 @@ fi
 USER_ID=$(id -u)
 sudo sed -i "s|^[[:space:]]*\"container_xdg_runtime_dir\": \"/run/xdg\",|\"container_xdg_runtime_dir\": \"/run/user/$USER_ID\",|" /usr/lib/waydroid/tools/config/__init__.py
 
-waydroid show-full-ui
-sleep 3
-sudo waydroid upgrade -o
-
 echo "All Done."
 
