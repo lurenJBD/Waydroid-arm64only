@@ -1,4 +1,4 @@
-# Waydroid image for Apple Sclicon (arm64_only)
+# Waydroid image for Apple Silicon (arm64_only)
 
 ## Compilation tutorial reference
 
