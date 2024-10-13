@@ -30,6 +30,12 @@ if ! which waydroid >/dev/null 2>&1 ; then
     sudo apt install waydroid -y
 fi
 
+# Clipboard
+if ! which pyclip >/dev/null 2>&1 ; then
+    sudo apt install -y python-is-python3 python3-pip wl-clipboard
+    pip install pyclip
+fi
+
 if [ ! -f ~/images.zip ]; then
     wget -O ~/images.zip $url
 fi
